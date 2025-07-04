@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WaterReminder</string>
+    <string name="navigation_drawer_open">Deschide meniul</string>
+    <string name="navigation_drawer_close">Închide meniul</string>
+
+    <string-array name="theme_options">
+        <item>Luminoasă</item>
+        <item>Întunecată</item>
+        <item>Tema sistemului</item>
+    </string-array>
+
+    <!-- NavBar -->
+    <string name="nav_notifications">Notificari</string>
+    <string name="nav_history">Istoric</string>
+    <string name="nav_home">Acasa</string>
+    <string name="nav_noads">Fără reclame</string>
+    <string name="nav_settings">Setari</string>
+
+    <!-- fragment_home.xml / HomeFragment.kt -->
+    <string name="home_last_drink_label">Ultima dată când am băut apă:</string>
+    <string name="home_select_amount">Selectează cantitatea de apă (ml)</string>
+    <string name="home_slider_content_desc">Selectează cantitatea de apă în mililitri</string>
+    <string name="home_drink_button">Bea apă 💧 !</string>
+    <string name="home_total_today">Total băut azi: %1$d ml</string>
+    <string name="home_reset_counter">Resetează contorul</string>
+    <string name="home_slider_value">%1$d ml</string>
+    <string name="home_never_drink">Niciodată</string>
+    <string name="home_select_amount_toast">Selectează o cantitate!</string>
+    <string name="home_reset_counter_toast">Contorul a fost resetat!</string>
+
+    <!-- calendar_month_header.xml / HistoryFragment -->
+    <string name="calendar_month_title_sample">Iunie 2025</string>
+    <string name="calendar_day_l">L</string>
+    <string name="calendar_day_ma">Ma</string>
+    <string name="calendar_day_mi">Mi</string>
+    <string name="calendar_day_j">J</string>
+    <string name="calendar_day_v">V</string>
+    <string name="calendar_day_s">S</string>
+    <string name="calendar_day_d">D</string>
+
+    <!-- Edit HistoryFragment -->
+    <string name="history_edit">Editare</string>
+    <string name="history_cancel">Renunță</string>
+    <string name="history_ok">OK</string>
+    <string name="history_edit_day_title">Modifică ziua %1$s</string>
+    <string name="history_edit_day_message">Introdu noua cantitate (ml):</string>
+    <string name="history_ml_badge">%d ml</string>
+
+    <!-- fragment_notifications.xml / NotificationsFragment -->
+    <string name="notifications_start_time_label">Ora de început</string>
+    <string name="notifications_start_time_default">08:00</string>
+    <string name="notifications_end_time_label">Ora de final</string>
+    <string name="notifications_end_time_default">22:00</string>
+    <string name="notifications_interval_label">Interval între notificări</string>
+    <string name="notifications_save_button">Salvează</string>
+    <string name="home_notification_switch">Notificări hidratare</string>
+    <string name="notifications_permission_granted">Permisiunea de notificări a fost acordată!</string>
+    <string name="notifications_permission_denied">Permisiunea de notificări a fost refuzată!</string>
+    <string name="notifications_permission_needed_title">Permisiune necesară</string>
+    <string name="notifications_permission_needed_message">Pentru a primi notificări, activează permisiunea de notificări din setările aplicației.</string>
+    <string name="go_to_settings">Deschide setările</string>
+    <string name="battery_dialog_title">Optimizare baterie</string>
+    <string name="battery_dialog_message">Pentru ca notificările să funcționeze corect, setează aplicația pe „Fără restricții” în setările telefonului:\n\n1. Apasă pe „Permite”.\n2. În ecranul care se deschide, mergi la „Baterie” / „Optimizare baterie”.\n3. Selectează „Fără restricții” pentru această aplicație.\n\nAstfel, aplicația va putea trimite notificări chiar și când este în fundal.</string>
+    <string name="deny">Anulează</string>
+    <string name="allow">Permite</string>
+    <!-- Interval labels -->
+    <string name="notifications_interval_2min">2 min</string>
+    <string name="notifications_interval_15min">15 min</string>
+    <string name="notifications_interval_30min">30 min</string>
+    <string name="notifications_interval_45min">45 min</string>
+    <string name="notifications_interval_1h">1 oră</string>
+    <string name="notifications_interval_2h">2 ore</string>
+    <string name="notifications_interval_3h">3 ore</string>
+    <string name="notifications_interval_4h">4 ore</string>
+    <string name="notifications_interval_5h">5 ore</string>
+    <string name="notifications_interval_6h">6 ore</string>
+    <string name="notifications_interval_7h">7 ore</string>
+    <string name="notifications_interval_8h">8 ore</string>
+    <string name="notifications_interval_9h">9 ore</string>
+    <string name="notifications_interval_10h">10 ore</string>
+    <string name="notifications_interval_11h">11 ore</string>
+    <string name="notifications_interval_12h">12 ore</string>
+    <!-- Toasts -->
+    <string name="notifications_save_toast">Setări salvate</string>
+    <string name="notifications_alarm_permission_toast">Permiteți alarme exacte pentru funcționarea corectă a notificărilor.</string>
+
+    <!-- WaterReminderReceiver.kt -->
+    <string name="notification_channel_name">Memento Hidratate</string>
+    <string name="notification_title">E timpul să bei apă!</string>
+    <string name="notification_text">Nu uita să bei un pahar de apă 💧</string>
+
+    <!-- fragment_premium.xml / PremiumFragment.kt -->
+    <string name="premium_title">Abonament Premium – Elimină Reclamele</string>
+    <string name="premium_description">Abonamentul premium îți oferă o experiență fără întreruperi în aplicația WaterReminder, eliminând complet toate reclamele afișate. Astfel, te poți concentra pe obiectivele tale de hidratare fără distrageri, beneficiind de o interfață curată și rapidă.</string>
+    <string name="premium_benefits_title">Beneficii:</string>
+    <string name="premium_benefits">• Eliminarea tuturor reclamelor din aplicație\n• Experiență mai rapidă și mai plăcută\n• Susții dezvoltarea și îmbunătățirea aplicației</string>
+    <string name="premium_footer">Alege să devii utilizator premium și bucură-te de WaterReminder la adevărata sa valoare!</string>
+    <string name="btn_subscribe">Activează abonament</string>
+    <string name="user_status_normal">Status utilizator: Normal</string>
+    <string name="user_status_premium">Status utilizator: Premium</string>
+    <string name="already_premium_toast">Ești deja membru premium!</string>
+
+    <!-- fragment_settings.xml / SettingsFragment.kt -->
+    <string name="settings_theme_label">Tema aplicației</string>
+    <string name="settings_goal_label">Obiectiv zilnic</string>
+    <string name="settings_heat_alert">Alertă de caniculă</string>
+    <string name="heatwave_alert_info_dialog">Când alerta de caniculă este activată, vei primi notificări speciale dacă prognoza indică temperaturi ridicate la orele de vârf (12–6). Poți personaliza pragul de temperatură de la care să primești notificare. Sistemul folosește date meteo actualizate în funcție de locația ta.</string>
+    <string name="settings_set_temperature">Selectează temperatura</string>
+    <string name="settings_temperature_unit">Unitate de temperatură</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_fahrenheit">°F</string>
+    <!-- ... Dialog Set GOAL ... -->
+    <string name="set_goal_title">Setează obiectivul zilnic (ml)</string>
+    <string name="set_goal_hint">Ex: 2000</string>
+    <string name="set_goal_ok">OK</string>
+    <string name="set_goal_recommended">Recomandat</string>
+    <string name="set_goal_not_set">Nesetat</string>
+    <string name="set_goal_error">Introduceți o valoare validă (&gt;0)</string>
+    <string name="goal_value_ml">%1$d ml</string>
+    <!-- ... Dialog CONGRATS ... -->
+    <string name="congrats_dialog_title">Felicitări!</string>
+    <string name="congrats_dialog_message">Ai atins obiectivul tău zilnic de apă! 🥳</string>
+    <string name="congrats_dialog_ok">OK</string>
+    <!-- HeatAlert -->
+    <string name="toast_location_permission_required">Permisiunea de locație este necesară pentru alertă.</string>
+    <string name="toast_background_location_required">Trebuie să alegi „Permite întotdeauna”.</string>
+    <string name="toast_permission_denied_forever">Permisiune refuzată definitiv. Activează manual din setările aplicației.</string>
+    <string name="toast_heat_alert_enabled">Alerta de caniculă a fost activată!</string>
+    <string name="toast_heat_alert_disabled">Alerta de caniculă a fost dezactivată.</string>
+    <string name="toast_temp_not_found">Nu am putut obține temperatura!</string>
+    <string name="toast_location_not_found">Nu am putut obține locația!</string>
+    <string name="heat_notification_title">Alertă de caniculă</string>
+    <string name="heat_notification_text">Temperatura este acum %1$d%2$s! Hidratează-te!</string>
+    <!-- ... Dialog SELECT TEMPERATURE ... -->
+    <string name="select_temperature_threshold">Selectează pragul de temperatură</string>
+    <string name="set_temperature_ok">OK</string>
+    <string name="set_temperature_cancel">Renunță</string>
+
+</resources>

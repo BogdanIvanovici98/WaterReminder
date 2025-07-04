@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="water_light">#90caf9</color>
+    <color name="water_medium">#2196f3</color>
+    <color name="water_dark">#0d47a1</color>
+    <color name="gray_light">#cccccc</color>
+
+    <color name="button_bg">#2196F3</color>
+    <color name="button_text">#FFFFFFFF</color>
+
+    <color name="dialog_bg_color">#222222</color>
+
+    <color name="blue">#2196F3</color>   <!-- stroke badge history -->
+
+    <color name="calendar_day_text">#FFFFFF</color>
+    <color name="calendar_null_color">#333333</color>
+    <color name="calendar_badge_1000">#E53935</color>
+    <color name="calendar_badge_2000">#FFD600</color>
+    <color name="calendar_badge_above_2000">#49BE25</color>
+
+    <color name="switch_thumb_default">#bdbdbd</color>
+    <color name="switch_thumb_checked">#bcb6c9</color>
+    <color name="switch_track_default">#52565c</color>
+    <color name="switch_track_checked">#43444b</color>
+</resources>

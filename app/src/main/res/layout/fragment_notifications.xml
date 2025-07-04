@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications_start_time_label"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/startTimeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications_start_time_default"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/button_bg"
+            android:textColor="@color/button_text"
+            style="@style/AppButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications_end_time_label"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/endTimeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications_end_time_default"
+            android:layout_marginBottom="24dp"
+            android:backgroundTint="@color/button_bg"
+            android:textColor="@color/button_text"
+            style="@style/AppButton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications_interval_label"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <NumberPicker
+            android:id="@+id/intervalPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notifications_save_button"
+            android:backgroundTint="@color/button_bg"
+            android:textColor="@color/button_text"
+            style="@style/AppButton" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/notificationSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_notification_switch"
+            android:checked="true"
+            android:minHeight="48dp"
+            android:minWidth="120dp"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            app:thumbTint="@color/switch_thumb"
+            app:trackTint="@color/switch_track" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

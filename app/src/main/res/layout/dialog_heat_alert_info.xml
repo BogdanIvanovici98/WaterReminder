@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@drawable/dialog_bg">
+
+    <TextView
+        android:id="@+id/dialogHeatAlertTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings_heat_alert"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/dialogHeatAlertMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/heatwave_alert_info_dialog"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/dialogHeatAlertOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:backgroundTint="@color/button_bg"
+        android:textColor="@color/button_text"
+        style="@style/AppButton" />
+
+
+</LinearLayout>

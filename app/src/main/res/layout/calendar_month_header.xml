@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/calendar_month_header_bg"
+    android:paddingTop="8dp"
+    android:paddingBottom="4dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="4dp">
+
+    <TextView
+        android:id="@+id/monthTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iunie 2025"
+        android:textColor="@color/calendar_day_text"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Rând cu zilele săptămânii -->
+    <LinearLayout
+        android:id="@+id/weekDaysContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="4dp"
+        android:gravity="center">
+
+        <TextView android:id="@+id/day0" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="L" android:gravity="center" android:textColor="@color/calendar_day_text" android:textStyle="bold"/>
+        <TextView android:id="@+id/day1" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="Ma" android:gravity="center" android:textColor="@color/calendar_day_text" android:textStyle="bold"/>
+        <TextView android:id="@+id/day2" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="Mi" android:gravity="center" android:textColor="@color/calendar_day_text" android:textStyle="bold"/>
+        <TextView android:id="@+id/day3" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="J" android:gravity="center" android:textColor="@color/calendar_day_text" android:textStyle="bold"/>
+        <TextView android:id="@+id/day4" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="V" android:gravity="center" android:textColor="@color/calendar_day_text" android:textStyle="bold"/>
+        <TextView android:id="@+id/day5" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="S" android:gravity="center" android:textColor="@color/calendar_day_text" android:textStyle="bold"/>
+        <TextView android:id="@+id/day6" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
+            android:text="D" android:gravity="center" android:textColor="@color/calendar_day_text" android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

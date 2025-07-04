@@ -1,0 +1,12 @@
+# Ignoră fișierele generate și mari
+/build/
+/.gradle/
+/.idea/
+/app/build/
+/app/.cxx/
+/captures/
+/local.properties
+*.iml
+*.apk
+*.dex
+*.log

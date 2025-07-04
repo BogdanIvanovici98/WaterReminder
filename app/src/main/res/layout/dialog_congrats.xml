@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogCongratsRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="28dp"
+    android:background="@drawable/dialog_bg"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/congratsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congrats_dialog_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="10dp" />
+
+    <TextView
+        android:id="@+id/congratsMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congrats_dialog_message"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:gravity="center"
+        android:paddingBottom="18dp" />
+
+    <Button
+        android:id="@+id/btnCongratsOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/congrats_dialog_ok"
+        android:backgroundTint="@color/button_bg"
+        android:textColor="@color/button_text"
+        style="@style/AppButton"  />
+
+</LinearLayout>

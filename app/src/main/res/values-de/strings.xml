@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WaterReminder</string>
+    <string name="navigation_drawer_open">Menü öffnen</string>
+    <string name="navigation_drawer_close">Menü schließen</string>
+
+    <string-array name="theme_options">
+        <item>Hell</item>
+        <item>Dunkel</item>
+        <item>Systemthema</item>
+    </string-array>
+
+    <!-- NavBar -->
+    <string name="nav_notifications">Benachrichtigungen</string>
+    <string name="nav_history">Verlauf</string>
+    <string name="nav_home">Startseite</string>
+    <string name="nav_noads">Keine Werbung</string>
+    <string name="nav_settings">Einstellungen</string>
+
+    <!-- fragment_home.xml / HomeFragment.kt -->
+    <string name="home_last_drink_label">Letztes Mal Wasser getrunken:</string>
+    <string name="home_select_amount">Wassermenge auswählen (ml)</string>
+    <string name="home_slider_content_desc">Wassermenge in Milliliter auswählen</string>
+    <string name="home_drink_button">Trink Wasser 💧!</string>
+    <string name="home_total_today">Heute getrunken: %1$d ml</string>
+    <string name="home_reset_counter">Zähler zurücksetzen</string>
+    <string name="home_slider_value">%1$d ml</string>
+    <string name="home_never_drink">Niemals</string>
+    <string name="home_select_amount_toast">Bitte eine Menge auswählen!</string>
+    <string name="home_reset_counter_toast">Der Zähler wurde zurückgesetzt!</string>
+
+    <!-- calendar_month_header.xml / HistoryFragment -->
+    <string name="calendar_month_title_sample">Juni 2025</string>
+    <string name="calendar_day_l">M</string>
+    <string name="calendar_day_ma">Di</string>
+    <string name="calendar_day_mi">Mi</string>
+    <string name="calendar_day_j">D</string>
+    <string name="calendar_day_v">F</string>
+    <string name="calendar_day_s">S</string>
+    <string name="calendar_day_d">S</string>
+
+    <!-- Edit HistoryFragment -->
+    <string name="history_edit">Bearbeiten</string>
+    <string name="history_cancel">Abbrechen</string>
+    <string name="history_ok">OK</string>
+    <string name="history_edit_day_title">Tag %1$s bearbeiten</string>
+    <string name="history_edit_day_message">Neue Menge eingeben (ml):</string>
+    <string name="history_ml_badge">%d ml</string>
+
+    <!-- fragment_notifications.xml / NotificationsFragment -->
+    <string name="notifications_start_time_label">Startzeit</string>
+    <string name="notifications_start_time_default">08:00</string>
+    <string name="notifications_end_time_label">Endzeit</string>
+    <string name="notifications_end_time_default">22:00</string>
+    <string name="notifications_interval_label">Intervall zwischen Benachrichtigungen</string>
+    <string name="notifications_save_button">Speichern</string>
+    <string name="home_notification_switch">Hydrationsbenachrichtigungen</string>
+    <string name="notifications_permission_granted">Benachrichtigungsberechtigung wurde erteilt!</string>
+    <string name="notifications_permission_denied">Benachrichtigungsberechtigung wurde verweigert!</string>
+    <string name="notifications_permission_needed_title">Berechtigung erforderlich</string>
+    <string name="notifications_permission_needed_message">Um Benachrichtigungen zu erhalten, aktiviere die Benachrichtigungsberechtigung in den App-Einstellungen.</string>
+    <string name="go_to_settings">Einstellungen öffnen</string>
+    <string name="battery_dialog_title">Akku-Optimierung</string>
+    <string name="battery_dialog_message">Damit Benachrichtigungen korrekt funktionieren, setze die App in den Telefoneinstellungen auf „Nicht eingeschränkt“:\n\n1. Tippe auf „Erlauben“.\n2. Im nächsten Bildschirm gehe zu „Akku“ / „Akku-Optimierung“.\n3. Wähle „Nicht eingeschränkt“ für diese App.\n\nSo kann die App Benachrichtigungen auch im Hintergrund senden.</string>
+    <string name="deny">Ablehnen</string>
+    <string name="allow">Erlauben</string>
+    <!-- Interval labels -->
+    <string name="notifications_interval_2min">2 Min</string>
+    <string name="notifications_interval_15min">15 Min</string>
+    <string name="notifications_interval_30min">30 Min</string>
+    <string name="notifications_interval_45min">45 Min</string>
+    <string name="notifications_interval_1h">1 Std.</string>
+    <string name="notifications_interval_2h">2 Std.</string>
+    <string name="notifications_interval_3h">3 Std.</string>
+    <string name="notifications_interval_4h">4 Std.</string>
+    <string name="notifications_interval_5h">5 Std.</string>
+    <string name="notifications_interval_6h">6 Std.</string>
+    <string name="notifications_interval_7h">7 Std.</string>
+    <string name="notifications_interval_8h">8 Std.</string>
+    <string name="notifications_interval_9h">9 Std.</string>
+    <string name="notifications_interval_10h">10 Std.</string>
+    <string name="notifications_interval_11h">11 Std.</string>
+    <string name="notifications_interval_12h">12 Std.</string>
+    <!-- Toasts -->
+    <string name="notifications_save_toast">Einstellungen gespeichert</string>
+    <string name="notifications_alarm_permission_toast">Bitte erlauben Sie genaue Alarme für die korrekte Funktion der Benachrichtigungen.</string>
+
+    <!-- WaterReminderReceiver.kt -->
+    <string name="notification_channel_name">Hydratationserinnerung</string>
+    <string name="notification_title">Zeit, Wasser zu trinken!</string>
+    <string name="notification_text">Vergiss nicht, ein Glas Wasser zu trinken 💧</string>
+
+    <!-- fragment_premium.xml / PremiumFragment.kt -->
+    <string name="premium_title">Premium-Abonnement – Entfernt Werbung</string>
+    <string name="premium_description">Das Premium-Abonnement bietet dir ein unterbrechungsfreies Erlebnis in der WaterReminder-App, indem alle angezeigten Werbeanzeigen entfernt werden. So kannst du dich ohne Ablenkungen auf deine Hydrationsziele konzentrieren und eine saubere, schnelle Benutzeroberfläche genießen.</string>
+    <string name="premium_benefits_title">Vorteile:</string>
+    <string name="premium_benefits">• Entfernt alle Werbung aus der App\n• Schnellere und angenehmere Erfahrung\n• Unterstützt die Weiterentwicklung der App</string>
+    <string name="premium_footer">Werde Premium-Nutzer und genieße WaterReminder in seiner besten Form!</string>
+    <string name="btn_subscribe">Abonnieren</string>
+    <string name="user_status_normal">Benutzerstatus: Normal</string>
+    <string name="user_status_premium">Benutzerstatus: Premium</string>
+    <string name="already_premium_toast">Du bist bereits Premium-Mitglied!</string>
+
+    <!-- fragment_settings.xml / SettingsFragment.kt -->
+    <string name="settings_theme_label">App-Design</string>
+    <string name="settings_goal_label">Tägliches Ziel</string>
+    <string name="settings_heat_alert">Hitzewarnung</string>
+    <string name="heatwave_alert_info_dialog">Wenn der Hitzewellen–Alarm aktiviert ist, erhältst du spezielle Benachrichtigungen, wenn die Prognose hohe Temperaturen zu Spitzenzeiten (12–6 Uhr) anzeigt. Du kannst die Temperaturschwelle, ab der du benachrichtigt wirst, anpassen. Das System verwendet aktuelle Wetterdaten basierend auf deinem Standort.</string>
+    <string name="settings_set_temperature">Temperatur auswählen</string>
+    <string name="settings_temperature_unit">Temperatureinheit</string>
+    <string name="unit_celsius">°C</string>
+    <string name="unit_fahrenheit">°F</string>
+    <!-- ... Dialog Set GOAL ... -->
+    <string name="set_goal_title">Tägliches Ziel festlegen (ml)</string>
+    <string name="set_goal_hint">Z.B.: 2000</string>
+    <string name="set_goal_ok">OK</string>
+    <string name="set_goal_recommended">Empfohlen</string>
+    <string name="set_goal_not_set">Nicht festgelegt</string>
+    <string name="set_goal_error">Bitte geben Sie einen gültigen Wert ein (&gt;0)</string>
+    <string name="goal_value_ml">%1$d ml</string>
+    <!-- ... Dialog CONGRATS ... -->
+    <string name="congrats_dialog_title">Herzlichen Glückwunsch!</string>
+    <string name="congrats_dialog_message">Du hast dein tägliches Wasserziel erreicht! 🥳</string>
+    <string name="congrats_dialog_ok">OK</string>
+    <!-- HeatAlert -->
+    <string name="toast_location_permission_required">Standortberechtigung ist für die Warnung erforderlich.</string>
+    <string name="toast_background_location_required">Du musst "Immer erlauben" auswählen.</string>
+    <string name="toast_permission_denied_forever">Berechtigung dauerhaft verweigert. Aktiviere sie manuell in den App-Einstellungen.</string>
+    <string name="toast_heat_alert_enabled">Hitzewarnung wurde aktiviert!</string>
+    <string name="toast_heat_alert_disabled">Hitzewarnung wurde deaktiviert.</string>
+    <string name="toast_temp_not_found">Temperatur konnte nicht abgerufen werden!</string>
+    <string name="toast_location_not_found">Standort konnte nicht abgerufen werden!</string>
+    <string name="heat_notification_title">Hitzewarnung</string>
+    <string name="heat_notification_text">Die Temperatur beträgt jetzt %1$d%2$s! Bleiben Sie hydriert.</string>
+    <!-- ... Dialog SELECT TEMPERATURE ... -->
+    <string name="select_temperature_threshold">Temperaturschwelle auswählen</string>
+    <string name="set_temperature_ok">OK</string>
+    <string name="set_temperature_cancel">Abbrechen</string>
+
+</resources>

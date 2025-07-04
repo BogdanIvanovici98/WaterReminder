@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:material="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_last_drink_label"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/lastDrinkText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_last_drink_label"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/sliderLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_select_amount"
+            android:labelFor="@id/amountSlider" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/amountSlider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="100"
+            android:valueTo="1000"
+            android:stepSize="100"
+            android:value="100"
+            android:contentDescription="@string/home_slider_content_desc"
+            material:tickVisible="true"
+            material:labelBehavior="floating"
+            android:layout_marginBottom="0dp"
+            material:trackColorActive="?attr/colorPrimary"
+            material:trackColorInactive="?attr/colorSecondary"
+            material:thumbColor="?attr/colorPrimary"
+            />
+
+        <!-- Paharul cu efect de umplere -->
+        <FrameLayout
+            android:id="@+id/glassComposeContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/sliderValueText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_slider_value"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/drinkButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_drink_button"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/button_bg"
+            android:textColor="@color/button_text"
+            style="@style/AppButton" />
+
+        <TextView
+            android:id="@+id/waterCounterText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_total_today"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_reset_counter"
+            android:layout_margin="16dp"
+            android:backgroundTint="@color/button_bg"
+            android:textColor="@color/button_text"
+            style="@style/AppButton" />
+
+        <nl.dionsegijn.konfetti.xml.KonfettiView
+            android:id="@+id/fullscreenKonfetti"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
