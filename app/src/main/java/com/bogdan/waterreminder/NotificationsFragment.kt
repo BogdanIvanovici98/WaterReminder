@@ -34,9 +34,9 @@ class NotificationsFragment : Fragment() {
     private lateinit var notificationSwitch: SwitchMaterial
     private lateinit var prefs: SharedPreferences
 
-    // Opțiuni: 2 min, 15 min + din oră în oră până la 12 ore
+    // Opțiuni: 15 min + din oră în oră până la 12 ore
     private val intervalOptions =
-        arrayOf(2, 15, 30, 45, 60, 120, 180, 240, 300, 360, 420, 480, 540, 600, 660, 720)
+        arrayOf(15, 30, 45, 60, 120, 180, 240, 300, 360, 420, 480, 540, 600, 660, 720)
     private lateinit var intervalLabels: Array<String>
 
     // Pentru notificări
@@ -62,7 +62,6 @@ class NotificationsFragment : Fragment() {
 
         // Internaționalizează etichetele pentru intervale
         intervalLabels = arrayOf(
-            getString(R.string.notifications_interval_2min),
             getString(R.string.notifications_interval_15min),
             getString(R.string.notifications_interval_30min),
             getString(R.string.notifications_interval_45min),

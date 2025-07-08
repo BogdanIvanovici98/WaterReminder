@@ -470,11 +470,11 @@ class SettingsFragment : Fragment() {
         val numberPicker = dialogView.findViewById<NumberPicker>(R.id.dialogNumberPicker)
 
         if (tempUnit == "C") {
-            numberPicker.minValue = 10
+            numberPicker.minValue = 25
             numberPicker.maxValue = 45
         } else {
-            numberPicker.minValue = 50
-            numberPicker.maxValue = 113
+            numberPicker.minValue = 75
+            numberPicker.maxValue = 115
         }
         numberPicker.value = currentValue
         numberPicker.wrapSelectorWheel = false
