@@ -106,6 +106,16 @@ class HomeFragment : Fragment() {
         loadInterstitialAd()
     }
 
+    // --- MODIFICARE: Actualizare date la revenirea pe ecran (reset la zi nouă dacă e cazul) ---
+    override fun onResume() {
+        super.onResume()
+        val wasReset = MidnightResetReceiver.resetIfNewDay(requireContext())
+        if (wasReset) {
+            // Dacă s-a făcut reset, reîncarcă tot UI-ul (counter, progres, etc)
+            loadSavedData()
+        }
+    }
+
     private fun setupAmountSlider() {
         amountSlider.valueFrom = 0f
         amountSlider.valueTo = 1000f
